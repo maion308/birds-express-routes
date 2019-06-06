@@ -14,6 +14,7 @@
 ## Bonus:
 - Create a `GET /` route that responds with HTML listing out the name for each bird.
 - Create a `GET /cities/:name.json` route that responds with the birds in that city, e.g. `/cities/NYC.json`
+- Create and PSQL database and Sequlize Models and connect them to you express server
 
 ## Remember:
 
