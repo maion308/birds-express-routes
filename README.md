@@ -30,4 +30,7 @@ Create a cities model that has the following properties: `name` (string), `count
 
 Create basic CRUD routes for the new resource as well as a GET route for the nested resources (e.g. `/city/:id/birds`)
 
+## ALT BONUS:
+Make a React front-end
+
 ### This homework is due 🚨 11PM TONIGHT 🚨
