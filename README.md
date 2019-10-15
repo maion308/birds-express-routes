@@ -10,16 +10,9 @@
    - Use [`response.json()`](https://expressjs.com/en/4x/api.html#res.json) to send a JSON formatted response
 1. Create a route handler for `GET /birds/:id.json`, where `:id` can be any number like `/birds/1.json`
    - Hint: [Express route parameters](https://expressjs.com/en/guide/routing.html#route-parameters)
-   
-## Bonus:
-- Create a `GET /` route that responds with HTML listing out the name for each bird.
-- Create a `GET /cities/:name.json` route that responds with the birds in that city, e.g. `/cities/NYC.json`
-- Create and PSQL database and Sequlize Models and connect them to you express server
-
-## Remember:
-
-- Use the in-class project we built on Monday as your reference for building out this birds project! But DO NOT copy and paste code! If you copy and paste you won't learn effectively. And we're all here to learn ✏️🎒
-- We've created this [cheat sheet](https://git.generalassemb.ly/wdi-nyc-arcadia/arcadia-class-info/wiki/Express-Cheat-Sheet) to help guide you in this process
+1. Create a `GET /` route that responds with HTML listing out the name for each bird.
+1. Create a `GET /cities/:name.json` route that responds with the birds in that city, e.g. `/cities/NYC.json`
+1. Create a PSQL database and Sequlize Models and connect them to you express server
 
 ## 🚀 Completion looks like:
 
