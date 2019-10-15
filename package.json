@@ -4,17 +4,24 @@
   "description": "![birds](https://media3.giphy.com/media/3o7Zen0xHZFjAFiQ1O/giphy.gif)",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://git.generalassemb.ly/michaelion/birds-express-routes.git"
+    "url": "https://git.generalassemb.ly/desireemoon/birds-express-routes.git",
+    "db:reset": "npx sequelize-cli db:drop && npx sequelize-cli db:create && npx sequelize-cli db:migrate && npx sequelize-cli db:seed:all"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "morgan": "^1.9.1",
+    "nodemon": "^1.19.3",
     "pg": "^7.12.1",
-    "sequelize": "^5.19.6"
+    "sequelize": "^5.19.6",
+    "sequelize-cli": "^5.5.1"
   }
 }
